@@ -1,0 +1,59 @@
+body {
+
+background-color: red;
+
+}
+
+.ContainerLogin{
+  display:list-item;
+  align-items: center;
+  text-align: center;
+margin: 10% auto;
+list-style-type: none;
+width: 420px;
+height: 350px;
+background-color: white;
+
+}
+
+.ContainerLogin > .TextTitle{
+  position: relative;
+ top: 10px;
+ 
+
+}
+
+.ContainerLogin > .TextBoxs{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px auto;
+  
+
+
+}
+.ContainerLogin > .TextBoxs input{
+
+  margin-bottom: 20px;
+
+}
+.labelTextBoxs {
+  display: flex;
+  width: 100px;
+  height: 0px;
+  position: relative;
+  margin: -223px;
+  left: 325px;
+  flex-direction: column; /* Organiza os labels em coluna */
+   /* Alinha os labels ao centro */
+}
+
+.labelTextBoxs label {
+  margin-bottom: 23px; /* Espaçamento entre os labels */
+}
+
+.BTNLogin{
+position: relative;
+top: 340px;
+}
